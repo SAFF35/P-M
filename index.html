@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 4px solid blue; /* Garis tabel sangat tebal dan berwarna biru */
+            padding: 8px;
+            text-align: center; /* Isi berada di tengah */
+            font-weight: bold; /* Huruf tebal */
+        }
+        th:nth-child(1), td:nth-child(1) { background-color: #c82333; } /* Judul kolom NO */
+        th:nth-child(2), td:nth-child(2) { background-color: #007b8a; } /* Judul kolom Mitra Baru */
+        th:nth-child(3), td:nth-child(3) { background-color: #117a65; } /* Judul kolom Tgl Transaksi */
+        th:nth-child(4), td:nth-child(4) { background-color: #856404; } /* Judul kolom Pengundang */
+        th:nth-child(5), td:nth-child(5) { background-color: #00356e; } /* Judul kolom Kode Produk */
+        th:nth-child(6), td:nth-child(6) { background-color: #bd2130; } /* Judul kolom Harga Produk */
+        th:nth-child(7), td:nth-child(7) { background-color: #5a6268; } /* Judul kolom Poin */
+        td:nth-child(1) { background-color: #f5c6cb; } /* Isi kolom NO */
+        td:nth-child(2) { background-color: #d1ecf1; } /* Isi kolom Mitra Baru */
+        td:nth-child(3) { background-color: #d4edda; } /* Isi kolom Tgl Transaksi */
+        td:nth-child(4) { background-color: #fff3cd; } /* Isi kolom Pengundang */
+        td:nth-child(5) { background-color: #cfe2f3; } /* Isi kolom Kode Produk */
+        td:nth-child(6) { background-color: #f8d7da; } /* Isi kolom Harga Produk */
+        td:nth-child(7) { background-color: #e2e3e5; } /* Isi kolom Poin */
+        tr:nth-child(even) { background-color: #f9f9f9; } /* Baris bergantian */
+        tr:hover { background-color: #f1f1f1; } /* Efek hover */
+    </style>
+    <title>Catatan Transaksi</title>
+</head>
+<body>
+
+    <h1>Catatan Transaksi Penjualan/Pendaftaran Mitra Baru</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>Mitra Baru</th>
+                <th>Tgl Transaksi</th>
+                <th>Pengundang</th>
+                <th>Kode Produk</th>
+                <th>Harga Produk</th>
+                <th>Poin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>HYT001</td><td>03/12/24</td><td>AFS000</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>2</td><td>FTH002</td><td>03/12/24</td><td>HYT001</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>3</td><td>AHD003</td><td>03/12/24</td><td>FTH002</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>4</td><td>HLM004</td><td>03/12/24</td><td>AHD003</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>5</td><td>MRR005</td><td>03/12/24</td><td>HLM004</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>6</td><td>HJI006</td><td>03/12/24</td><td>MRR005</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>7</td><td>PTRN007</td><td>03/12/24</td><td>HJI006</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>8</td><td>YTM008</td><td>03/12/24</td><td>PTRN007</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>9</td><td>SYF009</td><td>03/12/24</td><td>YTM008</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+            <tr><td>10</td><td>ULS010</td><td>03/12/24</td><td>SYF009</td><td>Ebook</td><td>35.000</td><td>10</td></tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
